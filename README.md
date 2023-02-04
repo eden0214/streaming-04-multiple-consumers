@@ -36,7 +36,7 @@ Explore the RabbitMQ website.
 
 1. Run listening_worker.py
 
-Will it terminate on its own? How do you know? 
+Will it terminate on its own? How do you know? No - The message kept being received.  When all the existing messages have been received, the listener seems to wait for a new message.  (Plus, the first line reads to Ctrl-C to exit.)
 
 ## Ready for Work
 
@@ -48,9 +48,9 @@ Will it terminate on its own? How do you know?
 
 Follow the tutorial. 
 Add multiple tasks (e.g. First message, Second message, etc.)
-How are tasks distributed? 
+How are tasks distributed? The tasks alternate:  Since I sent consecutive numbers, the the consumers alternated and received either odd or even, but not both.
 Monitor the windows with at least two workers. 
-Which worker gets which tasks?
+Which worker gets which tasks?  The first worker I opened received the first and third tasks.
 
 
 ## Reference
