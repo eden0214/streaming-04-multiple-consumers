@@ -7,6 +7,8 @@
 
 """
 
+# Eden Anderson / 2.4.23 / Multiple Consumers
+
 import pika
 import sys
 import time
