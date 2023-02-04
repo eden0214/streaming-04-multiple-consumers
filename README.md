@@ -71,3 +71,6 @@ See a running example with at least 3 concurrent process windows here:
 
 # Worker 2
 ![Window Example](A4Worker2.png)
+
+# Using V2
+![Window Example](A4V2Screenshot.png)
