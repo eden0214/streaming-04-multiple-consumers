@@ -61,3 +61,10 @@ Which worker gets which tasks?  The first worker I opened received the first and
 ## Screenshot
 
 See a running example with at least 3 concurrent process windows here:
+
+# Producer
+![Window Example](A4 Producer.png)
+# Worker 1
+![Window Example](A4 Worker 1.png)
+# Worker 2
+![Window Example](A4 Worker 2.png)
