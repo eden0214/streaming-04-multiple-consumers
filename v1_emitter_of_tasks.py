@@ -11,9 +11,15 @@ Work Queues - one task producer / many workers sharing work.
 
 """
 
+# Eden Anderson / 2.4.23 / Multiple Consumers
+
 import pika
 import sys
 import webbrowser
+
+host = "localhost"
+port = 15672
+address_tuple = (host, port)
 
 def offer_rabbitmq_admin_site():
     """Offer to open the RabbitMQ Admin website"""
