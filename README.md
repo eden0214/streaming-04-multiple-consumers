@@ -1,3 +1,6 @@
+# Eden Anderson
+## Streaming Data 44671 / Module 4 Assignment
+
 # streaming-04-multiple-consumers
 
 > Use RabbitMQ to distribute tasks to multiple workers
